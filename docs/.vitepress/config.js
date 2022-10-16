@@ -22,6 +22,9 @@ export default {
                     items: [
                         {
                             text: "开始", link: "/c/index"
+                        },
+                        {
+                            text: "基础", link: "/c/basic"
                         }
                     ]
                 }
@@ -33,5 +36,8 @@ export default {
                 link: 'https://github.com/mowangjuanzi/notes'
             },
         ]
+    },
+    markdown: {
+        lineNumbers: true
     }
 }
