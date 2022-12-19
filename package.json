@@ -6,7 +6,7 @@
   "author": "魔王卷子 <baoguoxiao0538@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.20",
+    "vitepress": "^1.0.0-alpha.32",
     "vue": "^3.2.40"
   },
   "scripts": {
