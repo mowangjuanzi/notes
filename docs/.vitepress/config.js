@@ -13,7 +13,7 @@ export default {
             copyright: 'Copyright © 2022-present 魔王卷子'
         },
         nav: [
-            { text: 'C语言', link: '/c/index', activeMatch: '/c/'},
+            { text: 'C语言', link: '/c/index', activeMatch: '/c/' },
         ],
         sidebar: {
             "/c/": [
@@ -25,6 +25,9 @@ export default {
                         },
                         {
                             text: "基础", link: "/c/basic"
+                        },
+                        {
+                            text: "类型", link: "/c/type"
                         }
                     ]
                 }
