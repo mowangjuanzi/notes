@@ -8,4 +8,7 @@ hero:
       - theme: brand
         text: C 语言
         link: /c/index
+      - theme: brand
+        text: PHP
+        link: /php/index
 ---

@@ -10,15 +10,16 @@ export default {
         },
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">鲁ICP备13027795号-1</a>',
-            copyright: 'Copyright © 2022-present 魔王卷子'
+            copyright: 'Copyright © 2022-2023 魔王卷子'
         },
         nav: [
-            { text: 'C语言', link: '/c/index', activeMatch: '/c/' },
+            { text: 'C 语言', link: '/c/index', activeMatch: '/c/' },
+            { text: 'PHP', link: '/php/index', activeMatch: '/php/' },
         ],
         sidebar: {
             "/c/": [
                 {
-                    text: "C语言",
+                    text: "C 语言",
                     items: [
                         {
                             text: "开始", link: "/c/index"
@@ -32,13 +33,27 @@ export default {
                     ]
                 }
             ],
+            "/php/": [
+                {
+                    text: "PHP",
+                    items: [
+                        {
+                            text: "开始", link: "/php/index"
+                        },
+                        {
+                            text: "ZVAL", link: "/php/zval"
+                        }
+                    ]
+                }
+            ]
         },
         socialLinks: [
             {
                 icon: 'github',
                 link: 'https://github.com/mowangjuanzi/notes'
             },
-        ]
+        ],
+        lastUpdatedText: '最后更新'
     },
     markdown: {
         lineNumbers: true
