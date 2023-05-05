@@ -45,7 +45,23 @@ export default {
                         }
                     ]
                 }
-            ]
+            ],
+            "/rust/": [
+                {
+                    text: "Rust",
+                    items: [
+                        {
+                            text: "开始", link: "/rust/start"
+                        },
+                        {
+                            text: "安装", link: "/rust/install"
+                        },
+                        {
+                            text: "基础", link: "/rust/basic"
+                        },
+                    ]
+                }
+            ],
         },
         socialLinks: [
             {

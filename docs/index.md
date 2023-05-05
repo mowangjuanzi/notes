@@ -6,6 +6,9 @@ hero:
     text: 纪录学习历程
     actions:
       - theme: brand
+        text: Rust
+        link: /rust/start
+      - theme: brand
         text: Clang
         link: /c/start
       - theme: brand
