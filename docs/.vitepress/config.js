@@ -22,7 +22,7 @@ export default {
                     text: "C 语言",
                     items: [
                         {
-                            text: "开始", link: "/c/index"
+                            text: "开始", link: "/c/start"
                         },
                         {
                             text: "基础", link: "/c/basic"
@@ -38,7 +38,7 @@ export default {
                     text: "PHP",
                     items: [
                         {
-                            text: "开始", link: "/php/index"
+                            text: "开始", link: "/php/start"
                         },
                         {
                             text: "ZVAL", link: "/php/zval"

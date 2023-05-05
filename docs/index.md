@@ -6,9 +6,9 @@ hero:
     text: 纪录学习历程
     actions:
       - theme: brand
-        text: C 语言
-        link: /c/index
+        text: Clang
+        link: /c/start
       - theme: brand
         text: PHP
-        link: /php/index
+        link: /php/start
 ---
