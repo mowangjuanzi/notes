@@ -1,7 +1,6 @@
 {
   "name": "@mowangjuanzi/notes",
-  "version": "0.0.1",
-  "main": "index.js",
+  "packageManager": "yarn@3.5.1",
   "repository": "git@github.com:mowangjuanzi/notes.git",
   "author": "魔王卷子 <baoguoxiao0538@hotmail.com>",
   "license": "MIT",

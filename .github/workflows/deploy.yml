@@ -9,12 +9,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Check env
+        run: |
+          node -v
+          yarn -v
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
           cache: yarn
-      - run: yarn install --frozen-lockfile
+      - run: yarn --frozen-lockfile --immutable
 
       - name: Build
         run: yarn docs:build
