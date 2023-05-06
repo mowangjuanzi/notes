@@ -8,6 +8,14 @@
 Windows 用户可以使用 wsl2。Mac 用户可以使用 homebrew。
 :::
 
+### Wsl
+
+执行如下命令就可以安装了：
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 ## IDE
 
 这里推荐使用 VS Code。免费。好用。

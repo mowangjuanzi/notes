@@ -2,7 +2,9 @@
 
 ## Hello world
 
-首先来一段示例代码。我们从这个代码开始入门：
+不管学习什么语言，第一步都是学习如何输出 `hello world`，Rust 也不例外。
+
+首先将如下内容放入到 `hello.rs` 中。
 
 ```rust
 fn main() {
