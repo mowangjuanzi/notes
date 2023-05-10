@@ -59,6 +59,9 @@ export default {
                         {
                             text: "基础", link: "/rust/basic"
                         },
+                        {
+                            text: "变量", link: "/rust/variables"
+                        },
                     ]
                 }
             ],
