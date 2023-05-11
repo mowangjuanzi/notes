@@ -62,6 +62,9 @@ export default {
                         {
                             text: "变量", link: "/rust/variables"
                         },
+                        {
+                          text: "数据类型", link: "/rust/type"
+                        },
                     ]
                 }
             ],
